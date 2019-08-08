@@ -1,0 +1,255 @@
+@media (min-width: 1300px) {
+	
+}
+
+@media (max-width: 1600px) {
+	.container-fluid{
+	    width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+	
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.profil-area .profile .profile-info table tbody tr td {
+		font-size: 14px;
+	}
+	.profil-area .profile .btn-list .btn{
+		padding: 8px 15px;
+		margin-right: 0px;
+	}
+	.contact-page .contact-left .profile .profile-info table tbody tr td span {
+		font-size: 14px;
+	}
+	.contact-page .contact-left .profile .btn-list .btn {
+		padding: 8px 15px;
+		margin-right: 0px;
+	}
+	.resume-area .resume-list .single-resume .education-list .single-education .secion {
+		position: inherit;
+		right: 0;
+		top: 0;
+		transform: rotate(0);
+		margin-top: 20px;
+		text-align: right;
+	}
+	.resume-area .resume-list .single-resume .award-list .single-award .secion{
+		position: inherit;
+		right: 0;
+		top: 0;
+		transform: rotate(0);
+		margin-top: 20px;
+		text-align: right;
+	}
+	.resume-area .resume-list .single-resume .employment-list .single-employment .secion{
+		position: inherit;
+		right: 0;
+		top: 0;
+		transform: rotate(0);
+		margin-top: 20px;
+		text-align: right;
+	}
+	.blog-page .blog .grid .grid-item .single-bolg .blog-info .blog-title h3 {
+		font-size: 20px;
+	}
+	.service-page .service .single-service .service-title h3 {
+		font-size: 16px;
+	}
+	.portfolio-page .portfolio .filtering-button a{
+		padding: 8px 12px;
+	}
+	
+}
+/* Portrait tablets and small desktops */
+@media  (max-width: 1199px) {
+    .portfolio-page .portfolio .filtering-button a {
+		margin-bottom: 10px;
+	}
+	.blog-page .blog .filtering-button a{
+		margin-bottom: 10px;
+	}
+	
+}
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+    .profil-area .profile {
+		margin-top: 30px;
+	}
+	.service-page .service .single-service .service-title h3 {
+		font-size: 18px;
+	}
+	.contact-page .contact-right {
+		margin-top: 30px;
+	}
+	.mt-30{
+		margin-top: 30px;
+	}
+	.social-media.text-right {
+		text-align: left;
+		margin-top: 15px;
+	}
+	.footer-area .social-media ul li {
+		margin-left: 0;
+		margin-right: 5px;
+	}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .single-skill{
+		text-align: center;
+		margin-top:30px;
+	}
+	.resume-area .resume-list .single-resume .skill-list .barcontainer {
+		margin: 0 auto;
+	}
+	.resume-area .resume-list .single-resume .skill-list {
+		padding-top: 0;
+	}
+	.page.text-right {
+		text-align: left;
+		margin-left: 5px;
+	}
+	.section {
+		padding: 40px 0;
+	}
+	.table-responsive{
+		border:none;
+		padding-bottom: 0px;
+	}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	.resume-area .resume-list .single-resume .education-list .single-education .secion {
+		position: inherit;
+		right: 0;
+		top: 0;
+		transform: rotate(0);
+		margin-top: 20px;
+		text-align: right;
+	}
+	.resume-area .resume-list .single-resume .award-list .single-award .secion{
+		position: inherit;
+		right: 0;
+		top: 0;
+		transform: rotate(0);
+		margin-top: 20px;
+		text-align: right;
+	}
+	.resume-area .resume-list .single-resume .employment-list .single-employment .secion{
+		position: inherit;
+		right: 0;
+		top: 0;
+		transform: rotate(0);
+		margin-top: 20px;
+		text-align: right;
+	}
+	.profil-area .profile .profile-info table tbody tr td {
+		font-size: 14px;
+	}
+	.profil-area .profile .btn-list .btn{
+		padding: 8px 15px;
+		margin-right: 0px;
+		display: block;
+		margin-top: 10px;
+	}
+	
+	.contact-page .contact-left .profile .profile-info table tbody tr td span {
+		font-size: 14px;
+	}
+	.contact-page .contact-left .profile .btn-list .btn {
+		padding: 8px 15px;
+		margin-right: 0px;
+	}
+	.contact-page .contact-left .profile .profile-info table tbody tr td b {
+		margin: 0 10px;
+	}
+	.cd-nav-trigger {
+		top: 15px;
+	}
+	.header-area {
+		padding: 10px 0;
+	}
+	.blog-page .blog .grid .grid-item .single-bolg .blog-info .blog-title h3{
+		font-size: 22px;
+	}
+	.contact-page .contact-left .profile .btn-list .btn {
+		display: block;
+		margin-top: 10px;
+	}
+}
+@media (max-width: 375px) {
+	.profil-area .profile-name-img-area .profile-name h1 {
+		font-size: 38px;
+	}
+	
+	.resume-area .resume-list .single-resume .education-list .single-education .university-title h4 {
+		font-size: 16px;
+	}
+	.resume-area .resume-list .single-resume .award-list .single-award .award-title h4 {
+		font-size: 16px;
+	}
+	.resume-area .resume-list .single-resume .employment-list .single-employment .employment-title h4 {
+		font-size: 16px;
+	}
+	.portfolio-page .portfolio .filtering-button a {
+		padding: 8px 10px;
+	}
+	.blog-page .blog .filtering-button a {
+		padding: 8px 10px;
+	}
+	.blog-page .blog .grid .grid-item .single-bolg .blog-info .blog-title h3 {
+		font-size: 16px;
+	}
+	.blog-page .blog .grid .grid-item .single-bolg .blog-info .blog-meta .read-more a {
+		font-size: 14px;
+	}
+	.blog-page .blog .grid .grid-item .single-bolg .blog-info .blog-meta .author p {
+		font-size: 14px;
+	}
+	.blog-page .blog .grid .grid-item .single-bolg .blog-info .blog-meta .author p span {
+		margin-right: 0;
+	}
+	.contact-page .contact-left .profile .btn-list .btn{
+		display: block;
+		margin-top: 10px;
+	}
+	.contact-right .section-title h3{
+		font-size: 18px;
+	}
+	.profil-area .profile .profile-info table tbody tr td b {
+		margin: 0 5px;
+	}
+	.profil-area .profile .profile-info table tbody tr td span {
+		font-size: 14px;
+	}
+	.profil-area .profile .profile-info table tbody tr td i {
+		margin-right: 10px;
+	}.contact-page .contact-left .profile .profile-info table tbody tr td {
+		font-size: 14px;
+	}
+	.contact-page .contact-left .profile .profile-info table tbody tr td i {
+		margin-right: 10px;
+	}
+	.service-page .service .single-service {
+		padding: 60px 10px 55px 10px;
+	}
+	.portfolio-page .portfolio .filtering-button a {
+		padding: 8px 5px;
+	}
+	.blog-page .blog .filtering-button a {
+		padding: 8px 5px;
+	}
+}
+@media (max-width: 320px) {
+	.blog-page .blog .filtering-button a {
+		padding: 8px 12px;
+	}
+	.portfolio-page .portfolio .filtering-button a {
+		padding: 8px 12px;
+	}
+}
